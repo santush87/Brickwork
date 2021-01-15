@@ -1,7 +1,6 @@
 package com.martin.aleksandrov;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class BrickBuilder {
@@ -418,9 +417,13 @@ public class BrickBuilder {
                 }
             }
         }
-        for (int[] rows : finalResult) {
-            System.out.println(Arrays.toString(rows));
-        }
+            for (int row = 0; row < finalResult.length; row++) {
+                for (int column = 0; column < finalResult[row].length; column++) {
+                    System.out.print(finalResult[row][column] + "\t");
+                }
+                System.out.println();
+            }
+
         return true;
     }
 }
