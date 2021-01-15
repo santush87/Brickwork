@@ -54,7 +54,7 @@ public class Main {
         // The new list in which we collect the result
         List<int[]> rowList = new ArrayList<>();
 
-        System.out.println("Enter number if rows: ");
+        System.out.println("Enter number of rows: ");
         int rowNumbers = scanner.nextInt();
         scanner.nextLine();
 

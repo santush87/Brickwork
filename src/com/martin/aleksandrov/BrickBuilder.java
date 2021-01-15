@@ -417,6 +417,7 @@ public class BrickBuilder {
                 }
             }
         }
+        System.out.println("OUTPUT NUMBERS");
             for (int row = 0; row < finalResult.length; row++) {
                 for (int column = 0; column < finalResult[row].length; column++) {
                     System.out.print(finalResult[row][column] + "\t");
