@@ -41,7 +41,7 @@ public class Main {
 
 /*********      EXAMPLE WITH MANUAL INPUT       ***************/
 
-        builder.wallChecker(input());
+        //builder.wallChecker(input());
     }
 
 /*********************************************************************************************/
