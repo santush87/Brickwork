@@ -11,6 +11,7 @@ the first layer, determine the possible layout of the second one, or prove that 
 impossible to create the second layer and print it in the console.
 Example. The two pictures show the layout of the two layers, respectively. The size of the
 area is 2 × 4. Each brick is marked with its number on both halves.
+
 ![Screenshot_2](https://user-images.githubusercontent.com/73018624/174055252-a95d01ee-bafb-4684-a111-fb262df25257.jpg)
 
 Input
